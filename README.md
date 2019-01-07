@@ -4,7 +4,7 @@
 
 ```
 $cd grpc-template
-$protoc structure/person.proto --go_out=plugins=grpc:.
+$protoc -I structure structure/person.proto --go_out=plugins=grpc:structure
 ```
 will generate `person.pb.go` under directory `structure`.
 
