@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
+	"log"
+
 	pb "github.com/xautjzd/grpc-template/structure"
 	"google.golang.org/grpc"
-	"log"
 )
 
 func main() {

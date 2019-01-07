@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
+	"net"
+
 	"github.com/sirupsen/logrus"
 	pb "github.com/xautjzd/grpc-template/structure"
 	"google.golang.org/grpc"
-	"net"
 )
 
 type server struct{}
